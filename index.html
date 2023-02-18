@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>LMS by Jay</title>
+</head>
+<body>
+    <h1>LIBRARAY MANAGEMENT SYSTEM</h1>
+    <form>
+        <div class="div-1">
+            <label for="bookName">Book Name</label>
+            <input type="text" id="bookName"><br>
+        </div>
+        <div class="div-2">
+            <label for="issuedTo">Issued To</label>
+            <input type="text" id="issuedTo">
+        </div>
+    </form>
+    <button class="btn" onclick="addRecord()">Issue Book</button>
+    <table id="myTable">
+        <tr>
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Issued To</th>
+            <th>Issue Date and Time</th>
+            <th>Status</th>
+        </tr>   
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
